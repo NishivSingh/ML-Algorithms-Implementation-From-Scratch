@@ -6,13 +6,13 @@ This document explains the **Linear Regression** algorithm implemented using the
 
 ## 🧠 Overview
 
-Linear Regression models the relationship between features \( X \) and a continuous target variable \( y \) by fitting a linear function:
+Linear Regression models the relationship between features $X$ and a continuous target variable $y$ by fitting a linear function:
 
 $$
 h_\theta(x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \dots + \theta_n x_n
 $$
 
-Where \( \theta \) are the model parameters.
+Where  $ \theta $ are the model parameters.
 
 ---
 
@@ -28,15 +28,15 @@ $$
 
 ## ⚙️ Normal Equation Solution
 
-The Normal Equation provides a closed-form solution for \( \theta \):
+The Normal Equation provides a closed-form solution for $\theta$:
 
 $$
 \mathbf{\theta} = \left( \mathbf{X}^T \mathbf{X} \right)^{-1} \mathbf{X}^T \mathbf{y}
 $$
 
-- \( X \) is the design matrix with a bias term column (ones)  
-- \( y \) is the vector of target values  
-- \( \theta \) is the parameter vector (including intercept)  
+- $X$ is the design matrix with a bias term column (ones)  
+- $y$ is the vector of target values  
+- $\theta$ is the parameter vector (including intercept)  
 
 No need to tune hyperparameters like learning rate or iterate multiple times.
 
