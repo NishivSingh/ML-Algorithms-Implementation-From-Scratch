@@ -30,9 +30,9 @@ J(\theta) = \frac{1}{2m} \sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)})^2
 
 The Normal Equation provides a closed-form solution for \( \theta \):
 
-\[
-\theta = (X^T X)^{-1} X^T y
-\]
+$$
+\mathbf{\theta} = \left( \mathbf{X}^T \mathbf{X} \right)^{-1} \mathbf{X}^T \mathbf{y}
+$$
 
 - \( X \) is the design matrix with a bias term column (ones)
 - \( y \) is the vector of target values
