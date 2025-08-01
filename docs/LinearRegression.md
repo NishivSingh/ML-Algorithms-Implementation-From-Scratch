@@ -12,7 +12,7 @@ $$
 h_\theta(x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \dots + \theta_n x_n
 $$
 
-Where  $ \theta $ are the model parameters.
+Where  $\theta$ are the model parameters.
 
 ---
 
