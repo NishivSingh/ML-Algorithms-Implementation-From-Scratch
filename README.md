@@ -13,21 +13,36 @@ This repository is a collection of **machine learning algorithms implemented fro
 
 | Category           | Algorithm                                             |
 |--------------------|-------------------------------------------------------|
-| Regression         | [Linear Regression](docs/linear_regression_ne.md) |
-| Classification     | [K-Nearest Neighbors (Coming Soon)](docs/knn.md)      |
+| Regression         | [Linear Regression](docs/LinearRegression.md) |
+| Classification     | [Logistic Regression (Coming Soon)](docs/LogisticRegression.md)      |
 | Tree-Based Models  | Decision Tree (Coming Soon)  |
 
 ---
 
-## 📂 Project Structure
-algo-implementation-from-scratch/
-│
-├── README.md
-├── Regression/
-│ └── LinearRegression.py
-├── Classification/
-│ └── LogisticRegression.py
-├── docs/
-│ ├── LinearRegression.md
-│ └── LogisticRegression.md
-└── demo_notebooks.ipynb
+
+## 🛠️ How to Use
+
+Clone the repository:
+
+```bash
+git clone https://github.com/NishivSingh/ML-Algorithms-Implementation-From-Scratch
+cd ML-Algorithms-Implementation-From-Scratch
+```
+
+## 🎯 Why This Project?
+
+- Strengthen machine learning foundations  
+- Reinforce mathematical intuition  
+- Build a solid portfolio of self-implemented algorithms  
+- Demonstrate coding clarity without high-level libraries  
+
+## 🧠 Future Ideas
+
+- Compare with `scikit-learn` results  
+- Visualize decision boundaries and cost functions  
+- Add runtime benchmarks for each method  
+- Bundle algorithms into a mini-library or CLI  
+
+## 🙌 Contributions
+
+This is a solo learning project, but if you're interested in sharing ideas, feel free to open an issue or connect with me!
