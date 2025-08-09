@@ -13,8 +13,8 @@ This repository is a collection of **machine learning algorithms implemented fro
 
 | Category           | Algorithm                                             |
 |--------------------|-------------------------------------------------------|
-| Regression         | [Linear Regression](docs/LinearRegression.md) |
-| Classification     | [Logistic Regression (Coming Soon)](docs/LogisticRegression.md)      |
+| Regression         | [Linear Regression](Regression/LinearRegression/) |
+| Classification     | [Logistic Regression (Coming Soon)]          |
 | Tree-Based Models  | Decision Tree (Coming Soon)  |
 
 ---
