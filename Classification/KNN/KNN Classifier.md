@@ -12,9 +12,9 @@ It predicts the class of a new data point based on the **majority class among it
 - **Non-parametric:** No assumptions about data distribution.  
 - **Instance-based:** Uses training data during prediction.  
 - **Distance metrics:** Supports Euclidean, Manhattan, and Minkowski distances. 
-  - **Euclidean:** \( \sqrt{\sum (x_i - y_i)^2} \)  
-  - **Manhattan:** \( \sum |x_i - y_i| \)  
-  - **Minkowski:** \( (\sum |x_i - y_i|^k)^{1/k} \)   
+  - **Euclidean:** √(Σ (xᵢ - yᵢ)²)  
+  - **Manhattan:** Σ |xᵢ - yᵢ| 
+  - **Minkowski:** (Σ |xᵢ - yᵢ|ᵏ)^(1/k) 
 
 ---
 
