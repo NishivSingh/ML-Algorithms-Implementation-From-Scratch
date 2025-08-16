@@ -14,7 +14,7 @@ This repository is a collection of **machine learning algorithms implemented fro
 | Category           | Algorithm                                             |
 |--------------------|-------------------------------------------------------|
 | Regression         | [Linear Regression](Regression/LinearRegression/) |
-| Classification     | [Logistic Regression (Coming Soon)]          |
+| Classification     | [KNN Classifier](Classification/KNN/) |          |
 | Tree-Based Models  | Decision Tree (Coming Soon)  |
 
 ---
